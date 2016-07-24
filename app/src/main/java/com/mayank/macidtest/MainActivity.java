@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 return res1.toString();
             }
-        } catch (Exception ex) {
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
