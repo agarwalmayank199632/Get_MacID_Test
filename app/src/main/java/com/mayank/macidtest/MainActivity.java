@@ -18,9 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-        //WifiInfo wInfo = wifiManager.getConnectionInfo();
-        //Toast.makeText(MainActivity.this,wInfo.getMacAddress(),Toast.LENGTH_SHORT).show();
         Toast.makeText(MainActivity.this,getMacAddr(),Toast.LENGTH_LONG).show();
 
     }
